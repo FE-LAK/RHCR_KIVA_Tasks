@@ -1,0 +1,5675 @@
+{
+  "worlds": [
+    {
+      "edges": [
+        {
+          "id": 1,
+          "from": 1,
+          "to": 2,
+          "shape": [
+            [
+              "L",
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 2,
+          "from": 2,
+          "to": 3,
+          "shape": [
+            [
+              "L",
+              1,
+              0,
+              2,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 3,
+          "from": 3,
+          "to": 4,
+          "shape": [
+            [
+              "L",
+              2,
+              0,
+              3,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 4,
+          "from": 4,
+          "to": 5,
+          "shape": [
+            [
+              "L",
+              3,
+              0,
+              4,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 5,
+          "from": 5,
+          "to": 6,
+          "shape": [
+            [
+              "L",
+              4,
+              0,
+              5,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 6,
+          "from": 6,
+          "to": 7,
+          "shape": [
+            [
+              "L",
+              5,
+              0,
+              6,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 7,
+          "from": 7,
+          "to": 8,
+          "shape": [
+            [
+              "L",
+              6,
+              0,
+              7,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 8,
+          "from": 8,
+          "to": 9,
+          "shape": [
+            [
+              "L",
+              7,
+              0,
+              8,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 10,
+          "from": 10,
+          "to": 11,
+          "shape": [
+            [
+              "L",
+              9,
+              0,
+              10,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 11,
+          "from": 11,
+          "to": 12,
+          "shape": [
+            [
+              "L",
+              10,
+              0,
+              11,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 12,
+          "from": 12,
+          "to": 13,
+          "shape": [
+            [
+              "L",
+              11,
+              0,
+              12,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 13,
+          "from": 13,
+          "to": 14,
+          "shape": [
+            [
+              "L",
+              12,
+              0,
+              13,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 14,
+          "from": 14,
+          "to": 15,
+          "shape": [
+            [
+              "L",
+              13,
+              0,
+              14,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 15,
+          "from": 15,
+          "to": 16,
+          "shape": [
+            [
+              "L",
+              14,
+              0,
+              15,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 16,
+          "from": 16,
+          "to": 17,
+          "shape": [
+            [
+              "L",
+              15,
+              0,
+              16,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 17,
+          "from": 17,
+          "to": 18,
+          "shape": [
+            [
+              "L",
+              16,
+              0,
+              17,
+              0
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 18,
+          "from": 19,
+          "to": 20,
+          "shape": [
+            [
+              "L",
+              0,
+              1,
+              1,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 19,
+          "from": 20,
+          "to": 21,
+          "shape": [
+            [
+              "L",
+              1,
+              1,
+              2,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 20,
+          "from": 21,
+          "to": 22,
+          "shape": [
+            [
+              "L",
+              2,
+              1,
+              3,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 21,
+          "from": 22,
+          "to": 23,
+          "shape": [
+            [
+              "L",
+              3,
+              1,
+              4,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 22,
+          "from": 23,
+          "to": 24,
+          "shape": [
+            [
+              "L",
+              4,
+              1,
+              5,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 23,
+          "from": 24,
+          "to": 25,
+          "shape": [
+            [
+              "L",
+              5,
+              1,
+              6,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 24,
+          "from": 25,
+          "to": 26,
+          "shape": [
+            [
+              "L",
+              6,
+              1,
+              7,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 25,
+          "from": 26,
+          "to": 27,
+          "shape": [
+            [
+              "L",
+              7,
+              1,
+              8,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 27,
+          "from": 28,
+          "to": 29,
+          "shape": [
+            [
+              "L",
+              9,
+              1,
+              10,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 28,
+          "from": 29,
+          "to": 30,
+          "shape": [
+            [
+              "L",
+              10,
+              1,
+              11,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 29,
+          "from": 30,
+          "to": 31,
+          "shape": [
+            [
+              "L",
+              11,
+              1,
+              12,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 30,
+          "from": 31,
+          "to": 32,
+          "shape": [
+            [
+              "L",
+              12,
+              1,
+              13,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 31,
+          "from": 32,
+          "to": 33,
+          "shape": [
+            [
+              "L",
+              13,
+              1,
+              14,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 32,
+          "from": 33,
+          "to": 34,
+          "shape": [
+            [
+              "L",
+              14,
+              1,
+              15,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 33,
+          "from": 34,
+          "to": 35,
+          "shape": [
+            [
+              "L",
+              15,
+              1,
+              16,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 34,
+          "from": 35,
+          "to": 36,
+          "shape": [
+            [
+              "L",
+              16,
+              1,
+              17,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 35,
+          "from": 37,
+          "to": 38,
+          "shape": [
+            [
+              "L",
+              0,
+              2,
+              1,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 36,
+          "from": 39,
+          "to": 40,
+          "shape": [
+            [
+              "L",
+              6,
+              2,
+              7,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 37,
+          "from": 41,
+          "to": 42,
+          "shape": [
+            [
+              "L",
+              10,
+              2,
+              11,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 38,
+          "from": 43,
+          "to": 44,
+          "shape": [
+            [
+              "L",
+              16,
+              2,
+              17,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 39,
+          "from": 45,
+          "to": 46,
+          "shape": [
+            [
+              "L",
+              0,
+              3,
+              1,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 40,
+          "from": 47,
+          "to": 48,
+          "shape": [
+            [
+              "L",
+              6,
+              3,
+              7,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 41,
+          "from": 49,
+          "to": 50,
+          "shape": [
+            [
+              "L",
+              10,
+              3,
+              11,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 42,
+          "from": 51,
+          "to": 52,
+          "shape": [
+            [
+              "L",
+              16,
+              3,
+              17,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 43,
+          "from": 53,
+          "to": 54,
+          "shape": [
+            [
+              "L",
+              0,
+              4,
+              1,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 44,
+          "from": 55,
+          "to": 56,
+          "shape": [
+            [
+              "L",
+              6,
+              4,
+              7,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 45,
+          "from": 57,
+          "to": 58,
+          "shape": [
+            [
+              "L",
+              10,
+              4,
+              11,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 46,
+          "from": 59,
+          "to": 60,
+          "shape": [
+            [
+              "L",
+              16,
+              4,
+              17,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 47,
+          "from": 61,
+          "to": 62,
+          "shape": [
+            [
+              "L",
+              0,
+              5,
+              1,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 48,
+          "from": 62,
+          "to": 63,
+          "shape": [
+            [
+              "L",
+              1,
+              5,
+              2,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 49,
+          "from": 63,
+          "to": 64,
+          "shape": [
+            [
+              "L",
+              2,
+              5,
+              3,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 50,
+          "from": 64,
+          "to": 65,
+          "shape": [
+            [
+              "L",
+              3,
+              5,
+              4,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 51,
+          "from": 65,
+          "to": 66,
+          "shape": [
+            [
+              "L",
+              4,
+              5,
+              5,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 52,
+          "from": 66,
+          "to": 67,
+          "shape": [
+            [
+              "L",
+              5,
+              5,
+              6,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 53,
+          "from": 67,
+          "to": 68,
+          "shape": [
+            [
+              "L",
+              6,
+              5,
+              7,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 54,
+          "from": 68,
+          "to": 69,
+          "shape": [
+            [
+              "L",
+              7,
+              5,
+              8,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 55,
+          "from": 69,
+          "to": 70,
+          "shape": [
+            [
+              "L",
+              8,
+              5,
+              9,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 56,
+          "from": 70,
+          "to": 71,
+          "shape": [
+            [
+              "L",
+              9,
+              5,
+              10,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 57,
+          "from": 71,
+          "to": 72,
+          "shape": [
+            [
+              "L",
+              10,
+              5,
+              11,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 58,
+          "from": 72,
+          "to": 73,
+          "shape": [
+            [
+              "L",
+              11,
+              5,
+              12,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 59,
+          "from": 73,
+          "to": 74,
+          "shape": [
+            [
+              "L",
+              12,
+              5,
+              13,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 60,
+          "from": 74,
+          "to": 75,
+          "shape": [
+            [
+              "L",
+              13,
+              5,
+              14,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 61,
+          "from": 75,
+          "to": 76,
+          "shape": [
+            [
+              "L",
+              14,
+              5,
+              15,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 62,
+          "from": 76,
+          "to": 77,
+          "shape": [
+            [
+              "L",
+              15,
+              5,
+              16,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 63,
+          "from": 77,
+          "to": 78,
+          "shape": [
+            [
+              "L",
+              16,
+              5,
+              17,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 64,
+          "from": 79,
+          "to": 80,
+          "shape": [
+            [
+              "L",
+              0,
+              6,
+              1,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 65,
+          "from": 81,
+          "to": 82,
+          "shape": [
+            [
+              "L",
+              6,
+              6,
+              7,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 66,
+          "from": 83,
+          "to": 84,
+          "shape": [
+            [
+              "L",
+              10,
+              6,
+              11,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 67,
+          "from": 85,
+          "to": 86,
+          "shape": [
+            [
+              "L",
+              16,
+              6,
+              17,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 68,
+          "from": 87,
+          "to": 88,
+          "shape": [
+            [
+              "L",
+              0,
+              7,
+              1,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 69,
+          "from": 89,
+          "to": 90,
+          "shape": [
+            [
+              "L",
+              6,
+              7,
+              7,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 70,
+          "from": 91,
+          "to": 92,
+          "shape": [
+            [
+              "L",
+              10,
+              7,
+              11,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 71,
+          "from": 93,
+          "to": 94,
+          "shape": [
+            [
+              "L",
+              16,
+              7,
+              17,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 72,
+          "from": 95,
+          "to": 96,
+          "shape": [
+            [
+              "L",
+              0,
+              8,
+              1,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 73,
+          "from": 97,
+          "to": 98,
+          "shape": [
+            [
+              "L",
+              6,
+              8,
+              7,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 74,
+          "from": 99,
+          "to": 100,
+          "shape": [
+            [
+              "L",
+              10,
+              8,
+              11,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 75,
+          "from": 101,
+          "to": 102,
+          "shape": [
+            [
+              "L",
+              16,
+              8,
+              17,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 76,
+          "from": 103,
+          "to": 104,
+          "shape": [
+            [
+              "L",
+              0,
+              9,
+              1,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 77,
+          "from": 104,
+          "to": 105,
+          "shape": [
+            [
+              "L",
+              1,
+              9,
+              2,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 78,
+          "from": 105,
+          "to": 106,
+          "shape": [
+            [
+              "L",
+              2,
+              9,
+              3,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 79,
+          "from": 106,
+          "to": 107,
+          "shape": [
+            [
+              "L",
+              3,
+              9,
+              4,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 80,
+          "from": 107,
+          "to": 108,
+          "shape": [
+            [
+              "L",
+              4,
+              9,
+              5,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 81,
+          "from": 108,
+          "to": 109,
+          "shape": [
+            [
+              "L",
+              5,
+              9,
+              6,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 82,
+          "from": 109,
+          "to": 110,
+          "shape": [
+            [
+              "L",
+              6,
+              9,
+              7,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 83,
+          "from": 110,
+          "to": 111,
+          "shape": [
+            [
+              "L",
+              7,
+              9,
+              8,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 85,
+          "from": 112,
+          "to": 113,
+          "shape": [
+            [
+              "L",
+              9,
+              9,
+              10,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 86,
+          "from": 113,
+          "to": 114,
+          "shape": [
+            [
+              "L",
+              10,
+              9,
+              11,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 87,
+          "from": 114,
+          "to": 115,
+          "shape": [
+            [
+              "L",
+              11,
+              9,
+              12,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 88,
+          "from": 115,
+          "to": 116,
+          "shape": [
+            [
+              "L",
+              12,
+              9,
+              13,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 89,
+          "from": 116,
+          "to": 117,
+          "shape": [
+            [
+              "L",
+              13,
+              9,
+              14,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 90,
+          "from": 117,
+          "to": 118,
+          "shape": [
+            [
+              "L",
+              14,
+              9,
+              15,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 91,
+          "from": 118,
+          "to": 119,
+          "shape": [
+            [
+              "L",
+              15,
+              9,
+              16,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 92,
+          "from": 119,
+          "to": 120,
+          "shape": [
+            [
+              "L",
+              16,
+              9,
+              17,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 93,
+          "from": 121,
+          "to": 122,
+          "shape": [
+            [
+              "L",
+              0,
+              10,
+              1,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 94,
+          "from": 122,
+          "to": 123,
+          "shape": [
+            [
+              "L",
+              1,
+              10,
+              2,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 95,
+          "from": 123,
+          "to": 124,
+          "shape": [
+            [
+              "L",
+              2,
+              10,
+              3,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 96,
+          "from": 124,
+          "to": 125,
+          "shape": [
+            [
+              "L",
+              3,
+              10,
+              4,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 97,
+          "from": 125,
+          "to": 126,
+          "shape": [
+            [
+              "L",
+              4,
+              10,
+              5,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 98,
+          "from": 126,
+          "to": 127,
+          "shape": [
+            [
+              "L",
+              5,
+              10,
+              6,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 99,
+          "from": 127,
+          "to": 128,
+          "shape": [
+            [
+              "L",
+              6,
+              10,
+              7,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 100,
+          "from": 128,
+          "to": 129,
+          "shape": [
+            [
+              "L",
+              7,
+              10,
+              8,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 102,
+          "from": 130,
+          "to": 131,
+          "shape": [
+            [
+              "L",
+              9,
+              10,
+              10,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 103,
+          "from": 131,
+          "to": 132,
+          "shape": [
+            [
+              "L",
+              10,
+              10,
+              11,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 104,
+          "from": 132,
+          "to": 133,
+          "shape": [
+            [
+              "L",
+              11,
+              10,
+              12,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 105,
+          "from": 133,
+          "to": 134,
+          "shape": [
+            [
+              "L",
+              12,
+              10,
+              13,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 106,
+          "from": 134,
+          "to": 135,
+          "shape": [
+            [
+              "L",
+              13,
+              10,
+              14,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 107,
+          "from": 135,
+          "to": 136,
+          "shape": [
+            [
+              "L",
+              14,
+              10,
+              15,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 108,
+          "from": 136,
+          "to": 137,
+          "shape": [
+            [
+              "L",
+              15,
+              10,
+              16,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 109,
+          "from": 137,
+          "to": 138,
+          "shape": [
+            [
+              "L",
+              16,
+              10,
+              17,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 110,
+          "from": 1,
+          "to": 19,
+          "shape": [
+            [
+              "L",
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 111,
+          "from": 2,
+          "to": 20,
+          "shape": [
+            [
+              "L",
+              1,
+              0,
+              1,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 112,
+          "from": 3,
+          "to": 21,
+          "shape": [
+            [
+              "L",
+              2,
+              0,
+              2,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 113,
+          "from": 4,
+          "to": 22,
+          "shape": [
+            [
+              "L",
+              3,
+              0,
+              3,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 114,
+          "from": 5,
+          "to": 23,
+          "shape": [
+            [
+              "L",
+              4,
+              0,
+              4,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 115,
+          "from": 6,
+          "to": 24,
+          "shape": [
+            [
+              "L",
+              5,
+              0,
+              5,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 116,
+          "from": 7,
+          "to": 25,
+          "shape": [
+            [
+              "L",
+              6,
+              0,
+              6,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 117,
+          "from": 8,
+          "to": 26,
+          "shape": [
+            [
+              "L",
+              7,
+              0,
+              7,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 118,
+          "from": 9,
+          "to": 27,
+          "shape": [
+            [
+              "L",
+              8,
+              0,
+              8,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 119,
+          "from": 10,
+          "to": 28,
+          "shape": [
+            [
+              "L",
+              9,
+              0,
+              9,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 120,
+          "from": 11,
+          "to": 29,
+          "shape": [
+            [
+              "L",
+              10,
+              0,
+              10,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 121,
+          "from": 12,
+          "to": 30,
+          "shape": [
+            [
+              "L",
+              11,
+              0,
+              11,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 122,
+          "from": 13,
+          "to": 31,
+          "shape": [
+            [
+              "L",
+              12,
+              0,
+              12,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 123,
+          "from": 14,
+          "to": 32,
+          "shape": [
+            [
+              "L",
+              13,
+              0,
+              13,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 124,
+          "from": 15,
+          "to": 33,
+          "shape": [
+            [
+              "L",
+              14,
+              0,
+              14,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 125,
+          "from": 16,
+          "to": 34,
+          "shape": [
+            [
+              "L",
+              15,
+              0,
+              15,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 126,
+          "from": 17,
+          "to": 35,
+          "shape": [
+            [
+              "L",
+              16,
+              0,
+              16,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 127,
+          "from": 18,
+          "to": 36,
+          "shape": [
+            [
+              "L",
+              17,
+              0,
+              17,
+              1
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 128,
+          "from": 19,
+          "to": 37,
+          "shape": [
+            [
+              "L",
+              0,
+              1,
+              0,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 129,
+          "from": 20,
+          "to": 38,
+          "shape": [
+            [
+              "L",
+              1,
+              1,
+              1,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 130,
+          "from": 25,
+          "to": 39,
+          "shape": [
+            [
+              "L",
+              6,
+              1,
+              6,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 131,
+          "from": 26,
+          "to": 40,
+          "shape": [
+            [
+              "L",
+              7,
+              1,
+              7,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 132,
+          "from": 29,
+          "to": 41,
+          "shape": [
+            [
+              "L",
+              10,
+              1,
+              10,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 133,
+          "from": 30,
+          "to": 42,
+          "shape": [
+            [
+              "L",
+              11,
+              1,
+              11,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 134,
+          "from": 35,
+          "to": 43,
+          "shape": [
+            [
+              "L",
+              16,
+              1,
+              16,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 135,
+          "from": 36,
+          "to": 44,
+          "shape": [
+            [
+              "L",
+              17,
+              1,
+              17,
+              2
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 136,
+          "from": 37,
+          "to": 45,
+          "shape": [
+            [
+              "L",
+              0,
+              2,
+              0,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 137,
+          "from": 38,
+          "to": 46,
+          "shape": [
+            [
+              "L",
+              1,
+              2,
+              1,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 138,
+          "from": 39,
+          "to": 47,
+          "shape": [
+            [
+              "L",
+              6,
+              2,
+              6,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 139,
+          "from": 40,
+          "to": 48,
+          "shape": [
+            [
+              "L",
+              7,
+              2,
+              7,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 140,
+          "from": 41,
+          "to": 49,
+          "shape": [
+            [
+              "L",
+              10,
+              2,
+              10,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 141,
+          "from": 42,
+          "to": 50,
+          "shape": [
+            [
+              "L",
+              11,
+              2,
+              11,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 142,
+          "from": 43,
+          "to": 51,
+          "shape": [
+            [
+              "L",
+              16,
+              2,
+              16,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 143,
+          "from": 44,
+          "to": 52,
+          "shape": [
+            [
+              "L",
+              17,
+              2,
+              17,
+              3
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 144,
+          "from": 45,
+          "to": 53,
+          "shape": [
+            [
+              "L",
+              0,
+              3,
+              0,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 145,
+          "from": 46,
+          "to": 54,
+          "shape": [
+            [
+              "L",
+              1,
+              3,
+              1,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 146,
+          "from": 47,
+          "to": 55,
+          "shape": [
+            [
+              "L",
+              6,
+              3,
+              6,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 147,
+          "from": 48,
+          "to": 56,
+          "shape": [
+            [
+              "L",
+              7,
+              3,
+              7,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 148,
+          "from": 49,
+          "to": 57,
+          "shape": [
+            [
+              "L",
+              10,
+              3,
+              10,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 149,
+          "from": 50,
+          "to": 58,
+          "shape": [
+            [
+              "L",
+              11,
+              3,
+              11,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 150,
+          "from": 51,
+          "to": 59,
+          "shape": [
+            [
+              "L",
+              16,
+              3,
+              16,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 151,
+          "from": 52,
+          "to": 60,
+          "shape": [
+            [
+              "L",
+              17,
+              3,
+              17,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 152,
+          "from": 53,
+          "to": 61,
+          "shape": [
+            [
+              "L",
+              0,
+              4,
+              0,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 153,
+          "from": 54,
+          "to": 62,
+          "shape": [
+            [
+              "L",
+              1,
+              4,
+              1,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 154,
+          "from": 55,
+          "to": 67,
+          "shape": [
+            [
+              "L",
+              6,
+              4,
+              6,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 155,
+          "from": 56,
+          "to": 68,
+          "shape": [
+            [
+              "L",
+              7,
+              4,
+              7,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 156,
+          "from": 57,
+          "to": 71,
+          "shape": [
+            [
+              "L",
+              10,
+              4,
+              10,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 157,
+          "from": 58,
+          "to": 72,
+          "shape": [
+            [
+              "L",
+              11,
+              4,
+              11,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 158,
+          "from": 59,
+          "to": 77,
+          "shape": [
+            [
+              "L",
+              16,
+              4,
+              16,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 159,
+          "from": 60,
+          "to": 78,
+          "shape": [
+            [
+              "L",
+              17,
+              4,
+              17,
+              5
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 160,
+          "from": 61,
+          "to": 79,
+          "shape": [
+            [
+              "L",
+              0,
+              5,
+              0,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 161,
+          "from": 62,
+          "to": 80,
+          "shape": [
+            [
+              "L",
+              1,
+              5,
+              1,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 162,
+          "from": 67,
+          "to": 81,
+          "shape": [
+            [
+              "L",
+              6,
+              5,
+              6,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 163,
+          "from": 68,
+          "to": 82,
+          "shape": [
+            [
+              "L",
+              7,
+              5,
+              7,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 164,
+          "from": 71,
+          "to": 83,
+          "shape": [
+            [
+              "L",
+              10,
+              5,
+              10,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 165,
+          "from": 72,
+          "to": 84,
+          "shape": [
+            [
+              "L",
+              11,
+              5,
+              11,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 166,
+          "from": 77,
+          "to": 85,
+          "shape": [
+            [
+              "L",
+              16,
+              5,
+              16,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 167,
+          "from": 78,
+          "to": 86,
+          "shape": [
+            [
+              "L",
+              17,
+              5,
+              17,
+              6
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 168,
+          "from": 79,
+          "to": 87,
+          "shape": [
+            [
+              "L",
+              0,
+              6,
+              0,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 169,
+          "from": 80,
+          "to": 88,
+          "shape": [
+            [
+              "L",
+              1,
+              6,
+              1,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 170,
+          "from": 81,
+          "to": 89,
+          "shape": [
+            [
+              "L",
+              6,
+              6,
+              6,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 171,
+          "from": 82,
+          "to": 90,
+          "shape": [
+            [
+              "L",
+              7,
+              6,
+              7,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 172,
+          "from": 83,
+          "to": 91,
+          "shape": [
+            [
+              "L",
+              10,
+              6,
+              10,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 173,
+          "from": 84,
+          "to": 92,
+          "shape": [
+            [
+              "L",
+              11,
+              6,
+              11,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 174,
+          "from": 85,
+          "to": 93,
+          "shape": [
+            [
+              "L",
+              16,
+              6,
+              16,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 175,
+          "from": 86,
+          "to": 94,
+          "shape": [
+            [
+              "L",
+              17,
+              6,
+              17,
+              7
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 176,
+          "from": 87,
+          "to": 95,
+          "shape": [
+            [
+              "L",
+              0,
+              7,
+              0,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 177,
+          "from": 88,
+          "to": 96,
+          "shape": [
+            [
+              "L",
+              1,
+              7,
+              1,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 178,
+          "from": 89,
+          "to": 97,
+          "shape": [
+            [
+              "L",
+              6,
+              7,
+              6,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 179,
+          "from": 90,
+          "to": 98,
+          "shape": [
+            [
+              "L",
+              7,
+              7,
+              7,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 180,
+          "from": 91,
+          "to": 99,
+          "shape": [
+            [
+              "L",
+              10,
+              7,
+              10,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 181,
+          "from": 92,
+          "to": 100,
+          "shape": [
+            [
+              "L",
+              11,
+              7,
+              11,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 182,
+          "from": 93,
+          "to": 101,
+          "shape": [
+            [
+              "L",
+              16,
+              7,
+              16,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 183,
+          "from": 94,
+          "to": 102,
+          "shape": [
+            [
+              "L",
+              17,
+              7,
+              17,
+              8
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 184,
+          "from": 95,
+          "to": 103,
+          "shape": [
+            [
+              "L",
+              0,
+              8,
+              0,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 185,
+          "from": 96,
+          "to": 104,
+          "shape": [
+            [
+              "L",
+              1,
+              8,
+              1,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 186,
+          "from": 97,
+          "to": 109,
+          "shape": [
+            [
+              "L",
+              6,
+              8,
+              6,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 187,
+          "from": 98,
+          "to": 110,
+          "shape": [
+            [
+              "L",
+              7,
+              8,
+              7,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 188,
+          "from": 99,
+          "to": 113,
+          "shape": [
+            [
+              "L",
+              10,
+              8,
+              10,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 189,
+          "from": 100,
+          "to": 114,
+          "shape": [
+            [
+              "L",
+              11,
+              8,
+              11,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 190,
+          "from": 101,
+          "to": 119,
+          "shape": [
+            [
+              "L",
+              16,
+              8,
+              16,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 191,
+          "from": 102,
+          "to": 120,
+          "shape": [
+            [
+              "L",
+              17,
+              8,
+              17,
+              9
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 192,
+          "from": 103,
+          "to": 121,
+          "shape": [
+            [
+              "L",
+              0,
+              9,
+              0,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 193,
+          "from": 104,
+          "to": 122,
+          "shape": [
+            [
+              "L",
+              1,
+              9,
+              1,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 194,
+          "from": 105,
+          "to": 123,
+          "shape": [
+            [
+              "L",
+              2,
+              9,
+              2,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 195,
+          "from": 106,
+          "to": 124,
+          "shape": [
+            [
+              "L",
+              3,
+              9,
+              3,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 196,
+          "from": 107,
+          "to": 125,
+          "shape": [
+            [
+              "L",
+              4,
+              9,
+              4,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 197,
+          "from": 108,
+          "to": 126,
+          "shape": [
+            [
+              "L",
+              5,
+              9,
+              5,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 198,
+          "from": 109,
+          "to": 127,
+          "shape": [
+            [
+              "L",
+              6,
+              9,
+              6,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 199,
+          "from": 110,
+          "to": 128,
+          "shape": [
+            [
+              "L",
+              7,
+              9,
+              7,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 200,
+          "from": 111,
+          "to": 129,
+          "shape": [
+            [
+              "L",
+              8,
+              9,
+              8,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 201,
+          "from": 112,
+          "to": 130,
+          "shape": [
+            [
+              "L",
+              9,
+              9,
+              9,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 202,
+          "from": 113,
+          "to": 131,
+          "shape": [
+            [
+              "L",
+              10,
+              9,
+              10,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 203,
+          "from": 114,
+          "to": 132,
+          "shape": [
+            [
+              "L",
+              11,
+              9,
+              11,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 204,
+          "from": 115,
+          "to": 133,
+          "shape": [
+            [
+              "L",
+              12,
+              9,
+              12,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 205,
+          "from": 116,
+          "to": 134,
+          "shape": [
+            [
+              "L",
+              13,
+              9,
+              13,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 206,
+          "from": 117,
+          "to": 135,
+          "shape": [
+            [
+              "L",
+              14,
+              9,
+              14,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 207,
+          "from": 118,
+          "to": 136,
+          "shape": [
+            [
+              "L",
+              15,
+              9,
+              15,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 208,
+          "from": 119,
+          "to": 137,
+          "shape": [
+            [
+              "L",
+              16,
+              9,
+              16,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 209,
+          "from": 120,
+          "to": 138,
+          "shape": [
+            [
+              "L",
+              17,
+              9,
+              17,
+              10
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 210,
+          "from": 121,
+          "to": 139,
+          "shape": [
+            [
+              "L",
+              0,
+              10,
+              0,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 9,
+          "from": 56,
+          "to": 141,
+          "shape": [
+            [
+              "L",
+              7,
+              4,
+              8,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 26,
+          "from": 141,
+          "to": 142,
+          "shape": [
+            [
+              "L",
+              8,
+              4,
+              9,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 84,
+          "from": 142,
+          "to": 57,
+          "shape": [
+            [
+              "L",
+              9,
+              4,
+              10,
+              4
+            ]
+          ],
+          "twoway": true,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 101,
+          "from": 139,
+          "to": 143,
+          "shape": [
+            [
+              "L",
+              0,
+              12,
+              1,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 212,
+          "from": 143,
+          "to": 144,
+          "shape": [
+            [
+              "L",
+              1,
+              12,
+              2,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 213,
+          "from": 144,
+          "to": 145,
+          "shape": [
+            [
+              "L",
+              2,
+              12,
+              3,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 214,
+          "from": 145,
+          "to": 140,
+          "shape": [
+            [
+              "L",
+              3,
+              12,
+              4,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 211,
+          "from": 140,
+          "to": 146,
+          "shape": [
+            [
+              "L",
+              4,
+              12,
+              5,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 215,
+          "from": 146,
+          "to": 147,
+          "shape": [
+            [
+              "L",
+              5,
+              12,
+              6,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 216,
+          "from": 147,
+          "to": 148,
+          "shape": [
+            [
+              "L",
+              6,
+              12,
+              7,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 217,
+          "from": 148,
+          "to": 149,
+          "shape": [
+            [
+              "L",
+              7,
+              12,
+              8,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 218,
+          "from": 149,
+          "to": 150,
+          "shape": [
+            [
+              "L",
+              8,
+              12,
+              9,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 219,
+          "from": 150,
+          "to": 151,
+          "shape": [
+            [
+              "L",
+              9,
+              12,
+              10,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 220,
+          "from": 151,
+          "to": 152,
+          "shape": [
+            [
+              "L",
+              10,
+              12,
+              11,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 221,
+          "from": 152,
+          "to": 153,
+          "shape": [
+            [
+              "L",
+              11,
+              12,
+              12,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 222,
+          "from": 153,
+          "to": 154,
+          "shape": [
+            [
+              "L",
+              12,
+              12,
+              13,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 223,
+          "from": 154,
+          "to": 155,
+          "shape": [
+            [
+              "L",
+              13,
+              12,
+              14,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 224,
+          "from": 155,
+          "to": 156,
+          "shape": [
+            [
+              "L",
+              14,
+              12,
+              15,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 225,
+          "from": 156,
+          "to": 157,
+          "shape": [
+            [
+              "L",
+              15,
+              12,
+              16,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 226,
+          "from": 157,
+          "to": 158,
+          "shape": [
+            [
+              "L",
+              16,
+              12,
+              17,
+              12
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 227,
+          "from": 158,
+          "to": 159,
+          "shape": [
+            [
+              "L",
+              17,
+              12,
+              17,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 228,
+          "from": 159,
+          "to": 160,
+          "shape": [
+            [
+              "L",
+              17,
+              11,
+              16,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 229,
+          "from": 160,
+          "to": 161,
+          "shape": [
+            [
+              "L",
+              16,
+              11,
+              15,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 230,
+          "from": 161,
+          "to": 162,
+          "shape": [
+            [
+              "L",
+              15,
+              11,
+              14,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 231,
+          "from": 162,
+          "to": 163,
+          "shape": [
+            [
+              "L",
+              14,
+              11,
+              13,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 232,
+          "from": 163,
+          "to": 164,
+          "shape": [
+            [
+              "L",
+              13,
+              11,
+              12,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 233,
+          "from": 164,
+          "to": 165,
+          "shape": [
+            [
+              "L",
+              12,
+              11,
+              11,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 234,
+          "from": 165,
+          "to": 166,
+          "shape": [
+            [
+              "L",
+              11,
+              11,
+              10,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 235,
+          "from": 166,
+          "to": 167,
+          "shape": [
+            [
+              "L",
+              10,
+              11,
+              9,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 236,
+          "from": 167,
+          "to": 168,
+          "shape": [
+            [
+              "L",
+              9,
+              11,
+              8,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 237,
+          "from": 168,
+          "to": 169,
+          "shape": [
+            [
+              "L",
+              8,
+              11,
+              7,
+              11
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        },
+        {
+          "id": 238,
+          "from": 169,
+          "to": 128,
+          "shape": [
+            [
+              "L",
+              7,
+              11,
+              7,
+              10
+            ]
+          ],
+          "twoway": false,
+          "reverse": false,
+          "max_speed": 0,
+          "lanes": 0
+        }
+      ],
+      "nodes": [
+        {
+          "id": 1,
+          "location": [
+            0,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 2,
+          "location": [
+            1,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 3,
+          "location": [
+            2,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 4,
+          "location": [
+            3,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 5,
+          "location": [
+            4,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 6,
+          "location": [
+            5,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 7,
+          "location": [
+            6,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 8,
+          "location": [
+            7,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 9,
+          "location": [
+            8,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 10,
+          "location": [
+            9,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 11,
+          "location": [
+            10,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 12,
+          "location": [
+            11,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 13,
+          "location": [
+            12,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 14,
+          "location": [
+            13,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 15,
+          "location": [
+            14,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 16,
+          "location": [
+            15,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 17,
+          "location": [
+            16,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 18,
+          "location": [
+            17,
+            0
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 19,
+          "location": [
+            0,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 20,
+          "location": [
+            1,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 21,
+          "location": [
+            2,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 22,
+          "location": [
+            3,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 23,
+          "location": [
+            4,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 24,
+          "location": [
+            5,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 25,
+          "location": [
+            6,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 26,
+          "location": [
+            7,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 27,
+          "location": [
+            8,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 28,
+          "location": [
+            9,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 29,
+          "location": [
+            10,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 30,
+          "location": [
+            11,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 31,
+          "location": [
+            12,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 32,
+          "location": [
+            13,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 33,
+          "location": [
+            14,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 34,
+          "location": [
+            15,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 35,
+          "location": [
+            16,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 36,
+          "location": [
+            17,
+            1
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 37,
+          "location": [
+            0,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 38,
+          "location": [
+            1,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 39,
+          "location": [
+            6,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 40,
+          "location": [
+            7,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 41,
+          "location": [
+            10,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 42,
+          "location": [
+            11,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 43,
+          "location": [
+            16,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 44,
+          "location": [
+            17,
+            2
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 45,
+          "location": [
+            0,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 46,
+          "location": [
+            1,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 47,
+          "location": [
+            6,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 48,
+          "location": [
+            7,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 49,
+          "location": [
+            10,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 50,
+          "location": [
+            11,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 51,
+          "location": [
+            16,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 52,
+          "location": [
+            17,
+            3
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 53,
+          "location": [
+            0,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 54,
+          "location": [
+            1,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 55,
+          "location": [
+            6,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 56,
+          "location": [
+            7,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 57,
+          "location": [
+            10,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 58,
+          "location": [
+            11,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 59,
+          "location": [
+            16,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 60,
+          "location": [
+            17,
+            4
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 61,
+          "location": [
+            0,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 62,
+          "location": [
+            1,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 63,
+          "location": [
+            2,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 64,
+          "location": [
+            3,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 65,
+          "location": [
+            4,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 66,
+          "location": [
+            5,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 67,
+          "location": [
+            6,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 68,
+          "location": [
+            7,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 69,
+          "location": [
+            8,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 70,
+          "location": [
+            9,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 71,
+          "location": [
+            10,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 72,
+          "location": [
+            11,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 73,
+          "location": [
+            12,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 74,
+          "location": [
+            13,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 75,
+          "location": [
+            14,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 76,
+          "location": [
+            15,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 77,
+          "location": [
+            16,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 78,
+          "location": [
+            17,
+            5
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 79,
+          "location": [
+            0,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 80,
+          "location": [
+            1,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 81,
+          "location": [
+            6,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 82,
+          "location": [
+            7,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 83,
+          "location": [
+            10,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 84,
+          "location": [
+            11,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 85,
+          "location": [
+            16,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 86,
+          "location": [
+            17,
+            6
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 87,
+          "location": [
+            0,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 88,
+          "location": [
+            1,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 89,
+          "location": [
+            6,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 90,
+          "location": [
+            7,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 91,
+          "location": [
+            10,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 92,
+          "location": [
+            11,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 93,
+          "location": [
+            16,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 94,
+          "location": [
+            17,
+            7
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 95,
+          "location": [
+            0,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 96,
+          "location": [
+            1,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 97,
+          "location": [
+            6,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 98,
+          "location": [
+            7,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 99,
+          "location": [
+            10,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 100,
+          "location": [
+            11,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 101,
+          "location": [
+            16,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 102,
+          "location": [
+            17,
+            8
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 103,
+          "location": [
+            0,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 104,
+          "location": [
+            1,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 105,
+          "location": [
+            2,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 106,
+          "location": [
+            3,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 107,
+          "location": [
+            4,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 108,
+          "location": [
+            5,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 109,
+          "location": [
+            6,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 110,
+          "location": [
+            7,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 111,
+          "location": [
+            8,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 112,
+          "location": [
+            9,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 113,
+          "location": [
+            10,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 114,
+          "location": [
+            11,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 115,
+          "location": [
+            12,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 116,
+          "location": [
+            13,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 117,
+          "location": [
+            14,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 118,
+          "location": [
+            15,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 119,
+          "location": [
+            16,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 120,
+          "location": [
+            17,
+            9
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 121,
+          "location": [
+            0,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 122,
+          "location": [
+            1,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 123,
+          "location": [
+            2,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 124,
+          "location": [
+            3,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 125,
+          "location": [
+            4,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 126,
+          "location": [
+            5,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 127,
+          "location": [
+            6,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 128,
+          "location": [
+            7,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 129,
+          "location": [
+            8,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 130,
+          "location": [
+            9,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 131,
+          "location": [
+            10,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 132,
+          "location": [
+            11,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 133,
+          "location": [
+            12,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 134,
+          "location": [
+            13,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 135,
+          "location": [
+            14,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 136,
+          "location": [
+            15,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 137,
+          "location": [
+            16,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 138,
+          "location": [
+            17,
+            10
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 139,
+          "location": [
+            0,
+            11
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 141,
+          "location": [
+            8.004473,
+            4.0007815
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 142,
+          "location": [
+            9.003748,
+            3.9966526
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 140,
+          "location": [
+            3.9992194,
+            12.020731
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 143,
+          "location": [
+            0.99752057,
+            11.994549
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 144,
+          "location": [
+            2.0042317,
+            11.99966
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 145,
+          "location": [
+            3.0007224,
+            11.981773
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 146,
+          "location": [
+            4.9988985,
+            11.991199
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 147,
+          "location": [
+            5.9910145,
+            12.001697
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 148,
+          "location": [
+            6.9988785,
+            12.012196
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 149,
+          "location": [
+            7.9962435,
+            11.996448
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 150,
+          "location": [
+            9.01121,
+            12.007341
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 151,
+          "location": [
+            9.998837,
+            12.014014
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 152,
+          "location": [
+            11.006484,
+            12.007341
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 153,
+          "location": [
+            11.994111,
+            12.007341
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 154,
+          "location": [
+            12.995085,
+            12.000668
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 155,
+          "location": [
+            14.007333,
+            12.000411
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 156,
+          "location": [
+            15.009948,
+            11.989913
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 157,
+          "location": [
+            16.00731,
+            12.00566
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 158,
+          "location": [
+            17.016808,
+            11.991092
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 159,
+          "location": [
+            17.030518,
+            11.004011
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 160,
+          "location": [
+            15.974882,
+            11.004011
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 161,
+          "location": [
+            14.974083,
+            10.990302
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 162,
+          "location": [
+            14.000706,
+            11.01772
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 163,
+          "location": [
+            12.972488,
+            11.004011
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 164,
+          "location": [
+            12.01282,
+            11.004011
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 165,
+          "location": [
+            11.025732,
+            11.004011
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 166,
+          "location": [
+            10.024934,
+            11.01772
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 167,
+          "location": [
+            8.996717,
+            11.004011
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 168,
+          "location": [
+            7.9273725,
+            11.01772
+          ],
+          "nearbyNodes": []
+        },
+        {
+          "id": 169,
+          "location": [
+            6.9814134,
+            10.990302
+          ],
+          "nearbyNodes": []
+        }
+      ],
+      "safe_locations": [
+      {
+          "id": 1,
+          "type": 1,
+          "road": 237,
+          "at": 1,
+          "entrance": 210,
+          "exit": 238,
+          "capacity": 22,
+          "virtual": true
+        }
+      ],
+      "roads": [],
+      "id": 0,
+      "backgroundImageFile": "",
+      "backgroundImageOrigin": [
+        0,
+        0
+      ],
+      "backgroundImageScale": 1
+    }
+  ],
+  "agvs": [],
+  "plans": [],
+  "settings": {
+    "start": 0,
+    "end": 0,
+    "step": 0.1
+  },
+  "tasks": [],
+  "stations": []
+}
