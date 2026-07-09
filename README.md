@@ -11,25 +11,38 @@ Original README.md included below.
 # Docker image
 
 ## Build Docker image
+```shell script
 docker build -t ubuntu2404-boost-python-build .
+```
 
 ## Run the shell
+```shell script
 docker run --rm -it -v "${PWD}:/work" ubuntu2404-boost-python-build
+```
 
 ## Configure the project
+```shell script
 (docker shell)# cmake .
+```
 ## Build it
+```shell script
 (docker shell)# make
+```
 
 ## Run an example
+```shell script
 ./scripts/run_grid4_workflow.sh
+```
 
 ## Copy the results from the container
+```shell script
 cp -r /tmp/rhcr_* /work/tmp
+```
 
-## Outside container - use ffmpeg to convert gif to mp4
+## Use ffmpeg to convert gif to mp4
+```shell script
 ffmpeg -i .\rhcr_grid_map4_run.gif -movflags faststart -pix_fmt yuv420p video.mp4
-
+```
 
 # RHCR
 Rolling-Horizon Collision Resolution (RHCR) is an efficient algorithm for solving lifelong Multi-Agent Path Finding (MAPF) where we are aksed to plan collision-free paths for a large number of agents that are constanly engaged with new goal locations. RHCR calls a Windowed MAPF solver every h timesteps that resolves collisions only for the next w timesteps (w >= h). More details can be found in our extended abstract at AAMAS 2020 [1] and our full paper at AAAI 2021 [2].
