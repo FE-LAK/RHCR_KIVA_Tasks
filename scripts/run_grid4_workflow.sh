@@ -12,10 +12,10 @@ RHCR_TASKS="${RHCR_TASKS:-maps/grid_map4.rhcr.tasks.txt}"
 DECODED_TASKS="${DECODED_TASKS:-/tmp/rhcr_grid4_decoded_tasks.txt}"
 OUTPUT_DIR="${OUTPUT_DIR:-/tmp/rhcr_grid4_run}"
 GIF_FILE="${GIF_FILE:-/tmp/rhcr_grid4_run.gif}"
-EXPORT_GIF="${EXPORT_GIF:-0}"
+EXPORT_GIF="${EXPORT_GIF:-1}"
 DECODE_TASKS="${DECODE_TASKS:-1}"
 
-AGENTS="${AGENTS:-10}"
+AGENTS="${AGENTS:-5}"
 HOME_COUNT="$AGENTS"
 if (( HOME_COUNT < 2 )); then
   HOME_COUNT=2
@@ -36,10 +36,10 @@ BREAKDOWN_AFTER_TASKS="${BREAKDOWN_AFTER_TASKS:-}"
 BREAKDOWN_LOCATION="${BREAKDOWN_LOCATION:-}"
 DUMMY_PATHS=0
 HOLD_ENDPOINTS=0
-FPS="${FPS:-8}"
+FPS="${FPS:-30}"
 VIS_UNTIL="${VIS_UNTIL:-$SIMULATION_TIME}"
 BUFFER_CAPACITY="${BUFFER_CAPACITY:-7}"
-SHOW_VIS="${SHOW_VIS:-1}"
+SHOW_VIS="${SHOW_VIS:-0}"
 
 echo "==> Converting map"
 python3 scripts/convert_map.py \
