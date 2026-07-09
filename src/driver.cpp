@@ -5,6 +5,7 @@
 #include "ID.h"
 #include <boost/program_options.hpp>
 #include <boost/filesystem.hpp>
+#include <cmath>
 
 
 void set_parameters(BasicSystem& system, const boost::program_options::variables_map& vm)
@@ -17,6 +18,9 @@ void set_parameters(BasicSystem& system, const boost::program_options::variables
 	system.simulation_window = vm["simulation_window"].as<int>();
 	system.planning_window = vm["planning_window"].as<int>();
 	system.travel_time_window = vm["travel_time_window"].as<int>();
+	system.map_unit_distance = vm["map_unit_distance"].as<double>();
+	system.velocity = vm["velocity"].as<double>();
+	system.max_consecutive_timeouts = vm["max_consecutive_timeouts"].as<int>();
 	system.consider_rotation = vm["rotation"].as<bool>();
 	system.k_robust = vm["robust"].as<int>();
 	system.hold_endpoints = vm["hold_endpoints"].as<bool>();
@@ -115,6 +119,13 @@ int main(int argc, char** argv)
 		("simulation_time", po::value<int>()->default_value(5000), "run simulation")
 		("simulation_window", po::value<int>()->default_value(5), "call the planner every simulation_window timesteps")
 		("travel_time_window", po::value<int>()->default_value(0), "consider the traffic jams within the given window")
+		("map_unit_distance", po::value<double>()->default_value(1.0), "map cell size (meters per grid unit)")
+		("velocity", po::value<double>()->default_value(1.0), "AGV velocity (meters per second)")
+		("max_consecutive_timeouts", po::value<int>()->default_value(0),
+		        "maximum consecutive planning failures/timeouts before ending unsuccessfully; 0 disables")
+		("breakdown_agent", po::value<int>()->default_value(-1), "KIVA agent id that breaks down; -1 disables breakdown")
+		("breakdown_after_tasks", po::value<int>()->default_value(-1), "number of completed pickup-delivery tasks before breakdown")
+		("breakdown_location", po::value<int>()->default_value(-1), "KIVA map location where the breakdown agent parks")
 		("planning_window", po::value<int>()->default_value(INT_MAX / 2),
 		        "the planner outputs plans with first planning_window timesteps collision-free")
 		("potential_function", po::value<string>()->default_value("NONE"), "potential function (NONE, SOC, IC)")
@@ -142,6 +153,17 @@ int main(int argc, char** argv)
 	}
 
 	po::notify(vm);
+	if (!std::isfinite(vm["map_unit_distance"].as<double>()) || vm["map_unit_distance"].as<double>() <= 0 ||
+		!std::isfinite(vm["velocity"].as<double>()) || vm["velocity"].as<double>() <= 0)
+	{
+		std::cerr << "map_unit_distance and velocity must be positive finite values" << endl;
+		return -1;
+	}
+	if (vm["max_consecutive_timeouts"].as<int>() < 0)
+	{
+		std::cerr << "max_consecutive_timeouts must be non-negative" << endl;
+		return -1;
+	}
 
     // check params
     if (vm["hold_endpoints"].as<bool>() or vm["dummy_paths"].as<bool>())
@@ -183,9 +205,25 @@ int main(int argc, char** argv)
 		MAPFSolver* solver = set_solver(G, vm);
 		KivaSystem system(G, *solver);
 		set_parameters(system, vm);
+		system.breakdown_agent = vm["breakdown_agent"].as<int>();
+		system.breakdown_after_tasks = vm["breakdown_after_tasks"].as<int>();
+		system.breakdown_location = vm["breakdown_location"].as<int>();
 		G.preprocessing(system.consider_rotation);
+		if (!vm["task"].as<std::string>().empty())
+		{
+			if (system.hold_endpoints || system.useDummyPaths)
+			{
+				std::cerr << "KIVA pickup-delivery task files cannot be used with hold_endpoints or dummy_paths" << endl;
+				exit(-1);
+			}
+			if (!system.load_task_assignments(vm["task"].as<std::string>()))
+			{
+				std::cerr << "Failed to load KIVA pickup-delivery task file" << endl;
+				exit(-1);
+			}
+		}
 		system.simulate(vm["simulation_time"].as<int>());
-		return 0;
+		return system.execution_successful ? 0 : -1;
 	}
 	else if (vm["scenario"].as<string>() == "SORTING")
 	{

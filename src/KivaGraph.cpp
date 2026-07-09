@@ -227,7 +227,53 @@ void KivaGrid::preprocessing(bool consider_rotation)
 		}
 		save_heuristics_table(fname);
 	}
+	else
+	{
+		bool updated = false;
+		for (auto endpoint : endpoints)
+		{
+			if (heuristics.find(endpoint) == heuristics.end())
+			{
+				heuristics[endpoint] = compute_heuristics(endpoint);
+				updated = true;
+			}
+		}
+		for (auto home : agent_home_locations)
+		{
+			if (heuristics.find(home) == heuristics.end())
+			{
+				heuristics[home] = compute_heuristics(home);
+				updated = true;
+			}
+		}
+		if (updated)
+			save_heuristics_table(fname);
+	}
 
 	double runtime = (std::clock() - t) / CLOCKS_PER_SEC;
 	std::cout << "Done! (" << runtime << " s)" << std::endl;
+}
+
+void KivaGrid::ensure_heuristics(const vector<int>& locations)
+{
+	bool updated = false;
+	for (int location : locations)
+	{
+		if (location < 0 || location >= size() || types[location] == "Obstacle" ||
+			heuristics.find(location) != heuristics.end())
+		{
+			continue;
+		}
+		heuristics[location] = compute_heuristics(location);
+		updated = true;
+	}
+	if (!updated)
+		return;
+
+	std::string fname;
+	if (consider_rotation)
+		fname = map_name + "_rotation_heuristics_table.txt";
+	else
+		fname = map_name + "_heuristics_table.txt";
+	save_heuristics_table(fname);
 }

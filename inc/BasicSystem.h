@@ -27,6 +27,10 @@ public:
     int simulation_window;
     int planning_window;
     int simulation_time;
+	double map_unit_distance = 1.0; // meters per grid unit
+	double velocity = 1.0; // meters per second
+	int max_consecutive_timeouts = 0; // 0 disables early stop on repeated planning failures
+	bool execution_successful = true;
 
     // params for drive model
     bool consider_rotation;
@@ -74,7 +78,7 @@ public:
     
 	void add_partial_priorities(const vector<Path>& initial_paths, PriorityGraph& initial_priorities) const;
 	list<tuple<int, int, int>> move(); // return finished tasks
-	void solve();
+	bool solve();
 	void initialize_solvers();
 	bool load_records();
 	bool load_locations();
@@ -88,4 +92,3 @@ protected:
 private:
 	const BasicGraph& G;
 };
-

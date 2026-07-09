@@ -564,8 +564,21 @@ void BasicSystem::update_travel_times(unordered_map<int, double>& travel_times)
 }
 
 
-void BasicSystem::solve()
+bool BasicSystem::solve()
 {
+	bool planning_succeeded = true;
+	auto has_complete_solution = [this](const vector<Path>& solution) -> bool
+	{
+		if ((int)solution.size() != num_of_drives)
+			return false;
+		for (const auto& path : solution)
+		{
+			if (path.empty())
+				return false;
+		}
+		return true;
+	};
+
     LRA_called = false;
 	LRAStar lra(G, solver.path_planner);
 	lra.simulation_window = simulation_window;
@@ -578,7 +591,9 @@ void BasicSystem::solve()
 		update_travel_times(solver.travel_times);
 
 		bool sol = solver.run(starts, goal_locations, time_limit);
-		update_paths(solver.solution);
+		if (sol)
+			update_paths(solver.solution);
+		planning_succeeded = sol;
 	}
 	else if (solver.get_name() == "WHCA")
 	{
@@ -592,7 +607,9 @@ void BasicSystem::solve()
 		else
 		{
 			lra.resolve_conflicts(solver.solution);
-			update_paths(lra.solution);
+			planning_succeeded = has_complete_solution(lra.solution);
+			if (planning_succeeded)
+				update_paths(lra.solution);
 		}
 	}
 	 else // PBS or ECBS
@@ -627,58 +644,62 @@ void BasicSystem::solve()
 				 }
 				 else
 					 ++p;
-			 }
-			 if (!new_agents.empty())
-			 {
-				 bool sol;
-                if (timestep == 0)
-                    sol = solver.run(new_starts, new_goal_locations, 10 * time_limit);
-                else
-                    sol = solver.run(new_starts, new_goal_locations, time_limit);
-                if (sol)
+				 }
+				 if (!new_agents.empty())
 				 {
-					 auto pt = solver.solution.begin();
-					 for (int i : new_agents)
+					 bool sol;
+					 if (timestep == 0)
+						 sol = solver.run(new_starts, new_goal_locations, 10 * time_limit);
+					 else
+						 sol = solver.run(new_starts, new_goal_locations, time_limit);
+					 if (sol)
 					 {
+						 auto pt = solver.solution.begin();
+						 for (int i : new_agents)
+						 {
 						 planned_paths[i] = *pt;
 						 ++pt;
 					 }
 					 if (check_collisions(planned_paths))
 					 {
 						 cout << "COLLISIONS!" << endl;
-						 exit(-1);
+							 exit(-1);
+						 }
+					 }
+					 else
+					 {
+						 sol = solve_by_WHCA(planned_paths, new_starts, new_goal_locations);
 					 }
 				 }
-				 else
-				 {
-					 sol = solve_by_WHCA(planned_paths, new_starts, new_goal_locations);
-                     assert(sol);
-				 }
-			 }
-			 // lra.resolve_conflicts(planned_paths, k_robust);
-			 update_paths(planned_paths);
-		 }
-		 else
-		 {
-			 bool sol = solver.run(starts, goal_locations, time_limit);
-			 if (sol)
-			 {
-				 if (log)
-					 solver.save_constraints_in_goal_node(outfile + "/goal_nodes/" + std::to_string(timestep) + ".gv");
-				 update_paths(solver.solution);
+				 // lra.resolve_conflicts(planned_paths, k_robust);
+				 planning_succeeded = has_complete_solution(planned_paths);
+				 if (planning_succeeded)
+					 update_paths(planned_paths);
 			 }
 			 else
 			 {
-				 lra.resolve_conflicts(solver.solution);
-				 update_paths(lra.solution);
+				 bool sol = solver.run(starts, goal_locations, time_limit);
+				 if (sol)
+				 {
+					 if (log)
+						 solver.save_constraints_in_goal_node(outfile + "/goal_nodes/" + std::to_string(timestep) + ".gv");
+					 update_paths(solver.solution);
+				 }
+				 else
+				 {
+					 lra.resolve_conflicts(solver.solution);
+					 planning_succeeded = has_complete_solution(lra.solution);
+					 if (planning_succeeded)
+						 update_paths(lra.solution);
+				 }
 			 }
-		 }
-		 if (log)
-			 solver.save_search_tree(outfile + "/search_trees/" + std::to_string(timestep) + ".gv");
+			 if (log)
+				 solver.save_search_tree(outfile + "/search_trees/" + std::to_string(timestep) + ".gv");
 
 	 }
 	 solver.save_results(outfile + "/solver.csv", std::to_string(timestep) + "," 
 										+ std::to_string(num_of_drives) + "," + std::to_string(seed));
+	return planning_succeeded;
 }
 
 bool BasicSystem::solve_by_WHCA(vector<Path>& planned_paths,
@@ -824,4 +845,3 @@ bool BasicSystem::load_records()
 	myfile.close();
 	return true;
 }
-

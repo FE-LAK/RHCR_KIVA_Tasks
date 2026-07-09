@@ -1,3 +1,36 @@
+# RHCR with custom task set loader
+
+This is a fork of the original repository (https://github.com/Jiaoyang-Li/RHCR) for the purpose of running lifelong algorithm on our own maps and task sets with minimal modifications
+to the core original code. The modified code uses KIVA scenario interface to load a predefined set of tasks and execute them, while simulating a known starting and finishing position of the agents.
+
+The scripts for converting custom maps and tasks sets, running the batch evaluation of the tasks and prepare visualizatons are included in the scripts folder.
+
+Original README.md included below.
+
+
+# Docker image
+
+## Build Docker image
+docker build -t ubuntu2404-boost-python-build .
+
+## Run the shell
+docker run --rm -it -v "${PWD}:/work" ubuntu2404-boost-python-build
+
+## Configure the project
+(docker shell)# cmake .
+## Build it
+(docker shell)# make
+
+## Run an example
+./scripts/run_grid4_workflow.sh
+
+## Copy the results from the container
+cp -r /tmp/rhcr_* /work/tmp
+
+## Outside container - use ffmpeg to convert gif to mp4
+ffmpeg -i .\rhcr_grid_map4_run.gif -movflags faststart -pix_fmt yuv420p video.mp4
+
+
 # RHCR
 ![test_ubuntu](https://github.com/Jiaoyang-Li/RHCR/actions/workflows/test_ubuntu.yml/badge.svg)
 ![test_macos](https://github.com/Jiaoyang-Li/RHCR/actions/workflows/test_macos.yml/badge.svg)
